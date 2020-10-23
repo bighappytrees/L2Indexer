@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'L2 Indexer', // Title for your website.
+  title: 'L2Indexer', // Title for your website.
   tagline: 'Explore the Second Layer',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
@@ -30,7 +30,7 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'L2 Indexer',
+  projectName: 'L2Indexer',
   organizationName: 'RaidGuild',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
