@@ -1,10 +1,3 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
 
@@ -20,9 +13,10 @@ const users = [
   },
 ];
 
+// TO DO
 const siteConfig = {
   title: 'L2Indexer', // Title for your website.
-  tagline: 'Explore the Second Layer',
+  tagline: 'A collectively built hub for comparison between "Layer 2" solutions',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -30,6 +24,8 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
+
+  // UPDATE THIS BEFORE GO LIVE
   projectName: 'L2Indexer',
   organizationName: 'RaidGuild',
   // For top-level user or org sites, the organization is still the same.
@@ -44,17 +40,21 @@ const siteConfig = {
   // If you have users set above, you add it here:
   users,
 
-  /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
 
+  // TO DO
+  /* path to images for header/footer */
+  headerIcon: 'img/raidguild__icon.png',
+  footerIcon: 'img/raidguild__icon.png',
+  favicon: 'img/raidguild__icon.png',
+
+  // TO DO
   /* Colors for website */
   colors: {
-    primaryColor: '#418da1',
-    secondaryColor: '#2d6270',
+    primaryColor: '#000',
+    secondaryColor: '#000',
   },
 
+  // TO DO
   /* Custom fonts for website */
   /*
   fonts: {
@@ -91,17 +91,17 @@ const siteConfig = {
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
-  // docsSideNavCollapsible: true,
+  docsSideNavCollapsible: true,
 
   // Show documentation's last contributor's name.
-  // enableUpdateBy: true,
+  enableUpdateBy: true,
 
   // Show documentation's last update time.
-  // enableUpdateTime: true,
+  enableUpdateTime: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  // repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: 'https://github.com/bighappytrees/L2Indexer/',
 };
 
 module.exports = siteConfig;
