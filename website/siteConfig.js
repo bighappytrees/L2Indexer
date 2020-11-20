@@ -15,7 +15,7 @@ const users = [
 
 // TO DO
 const siteConfig = {
-  title: 'L2Indexer', // Title for your website.
+  title: 'indexed.eth', // Title for your website.
   tagline: 'A collectively built hub for comparison between "Layer 2" solutions',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
@@ -26,7 +26,7 @@ const siteConfig = {
   // Used for publishing and more
 
   // UPDATE THIS BEFORE GO LIVE
-  projectName: 'L2Indexer',
+  projectName: 'indexed.eth',
   organizationName: 'RaidGuild',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
@@ -40,8 +40,6 @@ const siteConfig = {
   // If you have users set above, you add it here:
   users,
 
-
-  // TO DO
   /* path to images for header/footer */
   headerIcon: 'img/raidguild__icon.png',
   footerIcon: 'img/raidguild__icon.png',
@@ -84,10 +82,6 @@ const siteConfig = {
   onPageNav: 'separate',
   // No .html extensions for paths.
   cleanUrl: true,
-
-  // Open Graph and Twitter card images.
-  ogImage: 'img/undraw_online.svg',
-  twitterImage: 'img/undraw_tweetstorm.svg',
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
